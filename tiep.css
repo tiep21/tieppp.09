@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* 🔹 Top Bar */
+.top-bar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar a, .top-bar span {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* 🔹 Navbar */
+.navbar-nav .nav-link {
+    color: black !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Màu vàng khi hover */
+}
+
+/* 🔹 Điều chỉnh khoảng cách giữa các menu */
+.navbar-nav {
+    gap: 20px; /* Làm cho menu giãn đều */
+}
+
+/* 🔹 Logo */
+.navbar-brand strong {
+    font-size: 20px;
+    color: black;
+}
+
+/* 🔹 Form tìm kiếm */
+.form-control {
+    width: 200px;
+}
+/* Dropdown Menu */
+.dropdown-menu {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.dropdown-item {
+    color: black;
+    font-size: 15px;
+}
+.dropdown-item:hover {
+    background-color: #ffcc00;
+    color: white;
+}
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Nếu có nhiều sản phẩm hơn 3, nó sẽ tự xuống dòng */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    flex: 1 1 calc(33.333% - 20px); /* Chia đều thành 3 cột */
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product-code {
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    color: #d89a00;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: 14px;
+    color: red;
+}
+
+.sold {
+    font-size: 12px;
+    color: #666;
+}
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các hàng */
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin:0 auto ;
+}
+
+.product {
+   flex: 1 1 calc(33.333%-20px );
+    text-align: center;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) ;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    color: #d32f2f;
+    font-weight: bold;
+}
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các hàng */
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%; /* Chia đều 3 cột */
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    color: #d32f2f;
+    font-weight: bold;
+}
